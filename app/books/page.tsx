@@ -28,6 +28,9 @@ export default function Books() {
                 ashtavakra geeta - ashtavakra <Tag tag="philosophy" />
               </li>
               <li>
+                the metamorphosis - franz kafka <Tag tag="philosophy" />
+              </li>
+              <li>
                 the elephant in the brain - kevin simler <Tag tag="pschology" />
               </li>
               <li>

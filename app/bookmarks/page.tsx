@@ -30,6 +30,11 @@ export default function Bookmarks() {
                     <div className="">
                         <h3 className="text-xl mb-2">articles to read</h3>
                         <ul className="space-y-2">
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 className="text-xl mb-2">articles read</h3>
+                        <ul className="space-y-2">
                             <Link href="https://paulgraham.com/talk.html" className="text-sm text-zinc-100 flex items-center gap-2 underline">
                                 <img 
                                     src={`https://www.google.com/s2/favicons?domain=${new URL("https://paulgraham.com/talk.html").hostname}`}
@@ -40,11 +45,6 @@ export default function Bookmarks() {
                                     />
                                 How to write
                             </Link>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 className="text-xl mb-2">articles read</h3>
-                        <ul className="space-y-2">
                             <Link href="https://blog.samaltman.com/how-to-be-successful" className="text-sm text-zinc-100 flex items-center gap-2 underline">
                                 <img 
                                     src={`https://www.google.com/s2/favicons?domain=${new URL("https://blog.samaltman.com/how-to-be-successful").hostname}`}
@@ -72,6 +72,16 @@ export default function Bookmarks() {
                             className="bg-white"
                         />
                         Build your own X
+                    </Link>
+                    <Link href="https://github.com/leerob/vim-for-react-devs" className="text-sm text-zinc-100 flex items-center gap-2 underline">
+                        <img 
+                            src={"https://github.com/favicon.ico"}
+                            alt=""
+                            width={18}
+                            height={18}
+                            className="bg-white"
+                        />
+                        Vim for React devs
                     </Link>
                 </ul>
             </section>
