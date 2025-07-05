@@ -1,4 +1,4 @@
-import { Book, Info } from "lucide-react";
+import { Book } from "lucide-react";
 import Format from "../components/Format";
 
 function Tag({ tag }: { tag: string }) {
@@ -7,7 +7,7 @@ function Tag({ tag }: { tag: string }) {
     )
 }
 
-export default function Home() {
+export default function Books() {
   return (
     <div className="container mx-auto">
       <Format

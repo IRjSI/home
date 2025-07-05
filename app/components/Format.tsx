@@ -1,5 +1,5 @@
 
-export default function Format({ heading, icon, content , classname }: { heading: string, icon: any, content: string, classname?: string }) {
+export default function Format({ heading, icon, content , classname }: { heading: string, icon: React.ReactNode, content: string, classname?: string }) {
   return (
     <div className="container mx-auto">
       <section className="">
