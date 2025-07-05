@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 
 const quicksand = Quicksand({
   variable: "--font-quicksand",
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
