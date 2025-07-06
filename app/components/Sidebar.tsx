@@ -90,7 +90,7 @@ export default function Sidebar() {
                 </Link>
             </ul>
         </section>
-            <div id="green-box" className="h-2 w-2 bg-green-500 "></div>
+            <div id="green-box" className="h-2 w-2 bg-green-500 rounded-xs"></div>
         </div>
     )
 }

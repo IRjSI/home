@@ -35,6 +35,16 @@ export default function Bookmarks() {
                     <div>
                         <h3 className="text-xl mb-2">articles read</h3>
                         <ul className="space-y-2">
+                            <Link href="https://ryanholiday.net/all-success-is-a-lagging-indicator/" className="text-sm text-zinc-100 flex items-center gap-2 underline">
+                                <img 
+                                    src={`https://www.google.com/s2/favicons?domain=${new URL("https://ryanholiday.net/all-success-is-a-lagging-indicator/").hostname}`}
+                                    alt=""
+                                    width={18}
+                                    height={18}
+                                    className=""
+                                    />
+                                all success is a lagging indicator
+                            </Link>
                             <Link href="https://paulgraham.com/talk.html" className="text-sm text-zinc-100 flex items-center gap-2 underline">
                                 <img 
                                     src={`https://www.google.com/s2/favicons?domain=${new URL("https://paulgraham.com/talk.html").hostname}`}
