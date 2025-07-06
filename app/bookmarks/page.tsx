@@ -30,6 +30,36 @@ export default function Bookmarks() {
                     <div className="">
                         <h3 className="text-xl mb-2">articles to read</h3>
                         <ul className="space-y-2">
+                            <Link href="https://paulstamatiou.com/craft" className="text-sm text-zinc-100 flex items-center gap-2 underline">
+                                <img 
+                                    src={`https://www.google.com/s2/favicons?domain=${new URL("https://paulstamatiou.com/craft").hostname}`}
+                                    alt=""
+                                    width={18}
+                                    height={18}
+                                    className=""
+                                    />
+                                craft
+                            </Link>
+                            <Link href="https://joelcalifa.com/blog/tiny-wins/" className="text-sm text-zinc-100 flex items-center gap-2 underline">
+                                <img 
+                                    src={`https://www.google.com/s2/favicons?domain=${new URL("https://joelcalifa.com/blog/tiny-wins/").hostname}`}
+                                    alt=""
+                                    width={18}
+                                    height={18}
+                                    className=""
+                                    />
+                                tiny wins
+                            </Link>
+                            <Link href="https://sive.rs/kimo" className="text-sm text-zinc-100 flex items-center gap-2 underline">
+                                <img 
+                                    src={`https://www.google.com/s2/favicons?domain=${new URL("https://sive.rs/kimo").hostname}`}
+                                    alt=""
+                                    width={18}
+                                    height={18}
+                                    className=""
+                                    />
+                                there's no speed limit
+                            </Link>
                         </ul>
                     </div>
                     <div>
