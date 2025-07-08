@@ -58,7 +58,7 @@ export default function Bookmarks() {
                                     height={18}
                                     className=""
                                     />
-                                there's no speed limit
+                                there{`&apos`}s no speed limit
                             </Link>
                         </ul>
                     </div>
