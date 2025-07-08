@@ -3,7 +3,7 @@ import Format from "../components/Format";
 
 function Tag({ tag }: { tag: string }) {
     return (
-        <span className="px-1 rounded-xl bg-[#ededed] text-black text-xs">{tag}</span>
+      <span className="px-1 rounded-xl bg-[#ededed] text-black text-xs">{tag}</span>
     )
 }
 
