@@ -1,8 +1,6 @@
 
 import {
-  Button,
   Timeline,
-  TimelineBody,
   TimelineContent,
   TimelineItem,
   TimelinePoint,
