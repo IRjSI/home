@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container mx-auto">
       <Format
         heading="about"
-        icon={<Info size={24} className="text-[#00a63a]" />}
+        icon={<Info size={24} className="text-[#55acee]" />}
         content="i don't know what to write, yet"
         classname=""
       />

@@ -12,7 +12,7 @@ export default function Books() {
     <div className="container mx-auto">
       <Format
         heading="books"
-        icon={<Book size={24} className="text-[#00a63a]" />}
+        icon={<Book size={24} className="text-[#55acee]" />}
         content="books i have read and planning to read"
         classname=""
       />

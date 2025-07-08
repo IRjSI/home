@@ -6,7 +6,7 @@ export default function Bookmarks() {
 
     return (
         <div>
-            <Format heading="bookmarks" icon={<Bookmark size={24} className="text-[#00a63a]" />} content="collection of tools, articles, resources and some other fun stuff" />
+            <Format heading="bookmarks" icon={<Bookmark size={24} className="text-[#55acee]" />} content="collection of tools, articles, resources and some other fun stuff" />
 
             <section className="mb-8">
                 <h2 className="text-2xl mb-4">tools</h2>

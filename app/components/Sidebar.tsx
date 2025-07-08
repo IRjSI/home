@@ -11,7 +11,7 @@ export default function Sidebar() {
 
     useGSAP(() => {
         gsap.from("#green-box", {
-            y: 230,
+            y: 260,
             repeat: -1,
             duration: 3,
             ease: "back.inOut",
@@ -28,16 +28,25 @@ export default function Sidebar() {
                     href={"/"}
                     className={`hover:underline`}
                     style={{
-                        color: pathname === "/" ? "#00a63a" : "#9f9fa9"
+                        color: pathname === "/" ? "#55acee" : "#9f9fa9"
                     }}
                     >
                     about
                 </Link>
                 <Link
+                    href={"/timeline"}
+                    className={`hover:underline`}
+                    style={{
+                        color: pathname === "/timeline" ? "#55acee" : "#9f9fa9"
+                    }}
+                    >
+                    timeline
+                </Link>
+                <Link
                     href={"/books"}
                     className={`hover:underline`}
                     style={{
-                        color: pathname === "/books" ? "#00a63a" : "#9f9fa9"
+                        color: pathname === "/books" ? "#55acee" : "#9f9fa9"
                     }}
                     >
                     books
@@ -46,7 +55,7 @@ export default function Sidebar() {
                     href={"/writings"}
                     className={`hover:underline`}
                     style={{
-                        color: pathname === "/writings" ? "#00a63a" : "#9f9fa9"
+                        color: pathname === "/writings" ? "#55acee" : "#9f9fa9"
                     }}
                 >
                     writings
@@ -55,7 +64,7 @@ export default function Sidebar() {
                     href={"/bookmarks"}
                     className={`hover:underline`}
                     style={{
-                        color: pathname === "/bookmarks" ? "#00a63a" : "#9f9fa9"
+                        color: pathname === "/bookmarks" ? "#55acee" : "#9f9fa9"
                     }}
                     >
                     bookmarks
@@ -63,21 +72,21 @@ export default function Sidebar() {
                 <Link 
                     target="_blank"
                     href={"https://github.com/IRjSI"}
-                    className={`hover:text-[#00a63a] flex items-center justify-center`}
+                    className={`hover:text-[#55acee] flex items-center justify-center`}
                     >
                     <Github size={18} />
                 </Link>
                 <Link 
                     target="_blank"
                     href={"https://x.com/_RjS_0"}
-                    className={`hover:text-[#00a63a] flex items-center justify-center`}
+                    className={`hover:text-[#55acee] flex items-center justify-center`}
                     >
                     <Twitter size={18} />
                 </Link>
                 <Link 
                     target="_blank"
                     href={"https://leerob.com/"}
-                    className={`hover:text-[#00a63a] flex items-center justify-center gap-2`}
+                    className={`hover:text-[#55acee] flex items-center justify-center gap-2`}
                     >
                     inspiration{"(copied from)"}
                     <img 
@@ -90,7 +99,7 @@ export default function Sidebar() {
                 </Link>
             </ul>
         </section>
-            <div id="green-box" className="h-2 w-2 bg-green-500 rounded-xs"></div>
+            <div id="green-box" className="h-2 w-2 bg-[#55acee] rounded-xs"></div>
         </div>
     )
 }
